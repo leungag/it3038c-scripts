@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Node JS Response</title>
+  </head>
+  <body>
+    <h1>Hello! Welcome to my site!</h1>
+    <p><a href='/sysinfo'>Get Info About This System</a></p>
+
+<!-- Code for project2-->
+    <h2>Log Content</h2>
+    <div id="logContent">
+      <!-- Log content will be inserted here -->
+    </div>
+
+    <script>
+      // JavaScript code to fetch and display system information
+      fetch('/sysinfo')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('systemInfo').innerHTML = data;
+        })
+        .catch(error => {
+          console.error('Error fetching system information:', error);
+          document.getElementById('systemInfo').innerHTML = 'Error fetching system information.';
+        });
+
+      // JavaScript code to fetch and display log content
+      fetch('/log')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('logContent').innerHTML = data;
+        })
+        .catch(error => {
+          console.error('Error fetching log content:', error);
+          document.getElementById('logContent').innerHTML = 'Error fetching log content.';
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,4 @@
+[2023-10-30T16:40:51.564Z] INFO: Application started
+[2023-10-30T16:40:58.534Z] INFO: System information requested
+[2023-10-30T17:55:23.818Z] INFO: Application started
+[2023-10-30T17:55:34.320Z] INFO: System information requested
