@@ -1,3 +1,4 @@
+# Use the api.js file to properly run this python file
 import requests
 
 # Make a GET request to your Node.js API running on localhost:3000
