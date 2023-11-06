@@ -1,6 +1,7 @@
+# Use the api.js file to properly run this python file
 import requests
 
-# Make a GET request to your Node.js API running on localhost:3000
+# Make a GET request to api.js API running on localhost:3000
 response = requests.get("http://localhost:3000")
 
 # Check if the request was successful (status code 200)
