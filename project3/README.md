@@ -5,6 +5,7 @@ It provides the ability to view the content of files and list the contents of di
 <br/>
 <br/>
 Make sure Python is installed on your system.
+Powershell can also work with this program.
 <br/>
 <br/>
 ### Follow the Prompts:
