@@ -13,8 +13,6 @@ To run the script in PowerShell run the command:
 ```
 python dirandfile.py
 ```
-<br/>
-<br/>
 ### Follow the Prompts:
 
 * Enter the type of search: 'file' or 'directory'.
