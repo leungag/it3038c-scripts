@@ -4,10 +4,12 @@ This Python script helps you search for files and directories within a specified
 It provides the ability to view the content of files and list the contents of directories.
 <br/>
 <br/>
-Make sure Python is installed on your system.
+* Download dirandfile.py script.
+* Make sure Python is installed on your system.
 
 <br/>
-PowerShell can also work with this program once Python is installed.
+PowerShell can work with this program once the script is downloaded and Python is installed.
+
 To run the script in PowerShell run the command:
 
 ```javascript
