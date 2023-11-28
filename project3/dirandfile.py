@@ -25,7 +25,7 @@ def display_file_content(file_path):
 def search_for_file(start_directory, name, is_directory, timeout_seconds=15):
     start_time = time.time()
 
-    current_directory = start_directory
+    current_directory = start_directory 
 
     while current_directory: # Use os.walk to iterate over all directories and files in the current directory
         for root, dirs, files in os.walk(current_directory):
@@ -45,7 +45,7 @@ def search_for_file(start_directory, name, is_directory, timeout_seconds=15):
                         print(f"\nFile '{filename}' found at: {abs_path}")
                         return file_path
 
-        current_directory = os.path.dirname(current_directory)
+        current_directory = os.path.dirname(current_directory) # Move to parent directory
 
         # Check if the timeout has been reached if file or directory not found
         elapsed_time = time.time() - start_time
