@@ -43,3 +43,8 @@ Enter the file name: node
 * The script searches in the current directory and its subdirectories.
 * After 15 seconds of searching for a file or directory, if not found within the timeframe, a timeout error will appear.
 * Enter 'exit' at any time to exit the program.
+
+
+## Why it is Useful
+This Python program serves as an efficient directory and file search tool.
+It simplifies the process and offers a quick and easy search for files and directories within a specific starting directory. The program provides detailed information about the action and contents in the directory or file. Additionally, the program has a user-friendly interface, making it accessible to experienced professionals and those new to the command line. 
