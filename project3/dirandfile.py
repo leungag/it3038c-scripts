@@ -13,7 +13,7 @@ def display_directory_contents(directory):
 def display_file_content(file_path):
     try:
         with open(file_path, 'r') as file: # Open and read the contents of the file
-            print(f"\nContents of {file_path}:")
+            print(f"\nContents of {file_path}:\n")
             print(file.read())
     except FileNotFoundError:
         print(f"File '{file_path}' not found.")
