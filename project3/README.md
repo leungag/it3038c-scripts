@@ -34,4 +34,5 @@ Enter the file name: node
 ## Notes
 * Make sure to provide the correct file name or directory name.
 * The script searches in the current directory and its subdirectories.
+* After 15 seconds of searching for a file or directory, if not found within the timeframe, a timeout error will appear.
 * Enter 'exit' at any time to exit the program.
