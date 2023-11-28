@@ -21,7 +21,9 @@ Powershell can also work with this program once Python is installed.
 Enter 'file' or 'directory' to search (or 'exit' to quit): file
 Enter the file name: example.txt
 ```
-![image](https://github.com/leungag/it3038c-scripts/assets/142808905/19bbb6da-38c8-4405-a536-eb8256b475d1)
+![image](https://github.com/leungag/it3038c-scripts/assets/142808905/aecce36b-8026-4646-bcd2-b087703994ca)
+
+
 
 ### Search for a Directory
 ``` python
