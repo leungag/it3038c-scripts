@@ -10,7 +10,7 @@ Make sure Python is installed on your system.
 PowerShell can also work with this program once Python is installed.
 To run the script in PowerShell run the command:
 
-```
+```javascript
 python dirandfile.py
 ```
 ### Follow the Prompts:
