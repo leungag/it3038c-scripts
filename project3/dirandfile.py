@@ -45,9 +45,9 @@ def search_for_file(start_directory, name, is_directory, timeout_seconds=15):
                         print(f"\nFile '{filename}' found at: {abs_path}")
                         return file_path
 
-        current_directory = os.path.dirname(current_directory) # Move to parent directory
+        current_directory = os.path.dirname(current_directory) # Using os.path.dirname to move to parent directory
 
-        # Check if the timeout has been reached if file or directory not found
+        # Check if the timeout has been reached if file or directory not found after 15 sec
         elapsed_time = time.time() - start_time
         if elapsed_time > timeout_seconds:
             print(f"Timeout reached ({timeout_seconds} seconds). Directory or file '{name}' not found.")
